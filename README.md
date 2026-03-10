@@ -1,4 +1,4 @@
- Live Dashboard (Power BI)https://app.powerbi.com/groups/me/reports/174e5f08-7b80-447c-9137-757dd9f07c6a/1bbcb957271c3e1c65d7?experience=power-bi
+:link: [Live Dashboard (Power BI)]([https://app.powerbi.com/view?r=UE_18UkvfA?ctid=54c31b7a-3fa1-44f5-afef-a69a6c51529a&pbi_source=linkShare]
 ## 📌 Overview
 
 This project provides a complete analysis of supplier performance, inventory status, and profitability across 12,261 different brands and 131 suppliers. Using a strong data pipeline and careful statistical checks, it finds important market opportunities, shows ways to save costs through bulk buying, and gives practical suggestions to improve supply chain operations.
