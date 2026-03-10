@@ -28,7 +28,7 @@ The goals of this analysis are to:
      
 2. **Save original data to database**
    
-   *Save raw data into the local Mysql database inventory.db.
+   * Save raw data into the local Mysql database inventory.db.
    
 4. **Data Exploration & Cleaning (SQL)**
 
