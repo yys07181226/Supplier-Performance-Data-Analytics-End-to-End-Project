@@ -1,8 +1,7 @@
-# 📊 Vendor Performance Analysis Project
 
 ## 📌 Overview
 
-This project focuses on analyzing vendor performance by leveraging **SQL, Python, and Power BI**. It integrates data engineering, exploratory analysis, and business intelligence to provide actionable insights into vendor efficiency and performance.
+This project provides a complete analysis of supplier performance, inventory status, and profitability across 12,261 different brands and 131 suppliers. Using a strong data pipeline and careful statistical checks, it finds important market opportunities, shows ways to save costs through bulk buying, and gives practical suggestions to improve supply chain operations.
 
 ---
 
@@ -26,33 +25,36 @@ The goals of this analysis are to:
 
    * Identify objectives and key vendor performance questions.
    * Understand business needs and expected outcomes.
-
-2. **Data Exploration & Cleaning (SQL)**
+     
+2. **Save original data to database**
+   *Save raw data into the local Mysql database inventory.db.
+   
+4. **Data Exploration & Cleaning (SQL)**
 
    * Explore database tables.
    * Merge relevant tables.
    * Perform data cleaning & transformation.
    * Create an **aggregated table**.
 
-3. **Save & Load Data**
+5. **Save & Load Data**
 
-   * Save aggregated data into the database.
+   * Save aggregated data into the local Mysql database.
    * Load the aggregated table into **Jupyter Notebook**.
 
-4. **Data Analysis with Python**
+6. **Data Analysis with Python**
 
    * Perform **Exploratory Data Analysis (EDA)**.
    * Data cleaning & preprocessing.
    * Solve business/research questions.
    * Analyze & interpret results.
 
-5. **Data Visualization & Dashboard (Power BI)**
+7. **Data Visualization & Dashboard (Power BI)**
 
    * Build interactive dashboards.
    * Highlight KPIs and vendor performance metrics.
    * Provide actionable insights for stakeholders.
 
-6. **Report Writing**
+8. **Report Writing**
 
    * Document findings and insights.
    * Share business recommendations.
@@ -85,18 +87,19 @@ The goals of this analysis are to:
 
 ---
 
-## 📂 Repository Structure
+## Files
 
-```
-├── data/                # Raw and processed data files  
-├── notebooks/           # Jupyter notebooks for analysis  
-├── dashboards/          # Power BI dashboard files  
-├── reports/             # Final project reports  
-├── README.md            # Project documentation  
-```
+The following original data CSV files are required to run the analysis:
+
+- `begin_inventory.csv` - Beginning inventory data
+- `end_inventory.csv` - Ending inventory data
+- `purchase_prices.csv` - Purchase price information
+- `purchases.csv` - Purchase transaction data (~345 MB)
+- `sales.csv` - Sales transaction data (~1.5 GB)
+- `vendor_invoice.csv` - Vendor invoice information
+
+## Note
+
+These data files are not included in the Git repository due to their large size (total ~2 GB). They are excluded via `.gitignore` to keep the repository lightweight and follow best practices for version control.
 
 ---
-
-## 👨‍💻 Author
-
-*Vendor Performance Analysis Project – Data-driven decision-making with SQL, Python, and Power BI.*
